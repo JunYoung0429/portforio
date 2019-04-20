@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+.wrapper{
+    position: relative;
+    background-image: url(BG.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+ul{
+    position: absolute;
+    top: 0%;
+    right:0%;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+ul li:hover {
+    color:#E86B79;
+    cursor: pointer;
+}
+h1{
+    margin: 0 auto;
+    font-size: 3em;
+}
+.introduce{
+    background:rgba(51, 51, 51, 0.068);
+    width: 100%;
+    height: 80vh;
+    color: #333;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.introduce h1{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+.introduce img{
+    float: left;
+    margin: 30px;
+}
+.profile{
+    width: 511px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.profile .my-profile{
+    margin: 0px 30px;
+}
+.my{
+    margin: 40px;
+}
+.skill{
+    font-family: 'Mukta', sans-serif;
+    float: left;
+}
+.my-skill p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill-wrapper{
+    width: 500px;
+}
+
+.skill-wrapper li{
+    margin: 10px 0;
+}
+.bar{
+    background: #6b6a6a10;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #0084ff;
+}
+.html{
+    width:70%;
+}
+.css{
+    width: 50%;
+}
+.js{
+    width: 30%;
+}
+.contact{
+    height: 15vh;
+    background:rgba(253, 242, 242, 0.068);
+    text-align: center;
+}
+.contact .my-contact{
+    font-size: 25px;
+}
+.copyright{
+    height: 10vh;
+    background: #333;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 10vh;
+}
